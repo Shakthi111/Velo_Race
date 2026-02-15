@@ -285,41 +285,6 @@ Or **create a new account**:
 
 ---
 
-## 🏗️ Building for Production
-
-### Build the App
-
-```bash
-npm run build
-```
-
-**What happens:**
-- TypeScript compilation
-- Vite optimization and bundling
-- Assets minification
-- Tree-shaking and code splitting
-- Output in `dist/` folder
-
-**Build output size**: ~500KB (gzipped)
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
-
-This serves the production build locally at `http://localhost:4173` for testing.
-
-### Deploy
-
-The `dist/` folder contains your production-ready static files. Deploy to:
-- **Vercel**: `vercel deploy`
-- **Netlify**: Drag and drop `dist/` folder
-- **GitHub Pages**: Push `dist/` to `gh-pages` branch
-- **Firebase Hosting**: `firebase deploy`
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -390,22 +355,6 @@ The tiered system creates long-term engagement:
 | **Intermediate** | 2,000 - 6,999 | 30-110 runs | Regular runner (1-4 months) |
 | **Advanced** | 7,000 - 16,999 | 110-270 runs | Dedicated athlete (4-12 months) |
 | **Expert** | 17,000+ | 270+ runs | Elite performer (12+ months) |
-
----
-
-## 📸 Screenshots
-
-### Dashboard
-![Dashboard](https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800&h=500&fit=crop)
-*Main dashboard showing dual XP bars, Credits balance, and community stats*
-
-### Events Page
-![Events](https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=800&h=500&fit=crop)
-*Beautiful event cards with hero images and RSVP functionality*
-
-### Leaderboards
-![Leaderboards](https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=800&h=500&fit=crop)
-*Global and community rankings with podium display*
 
 ---
 
@@ -505,3 +454,4 @@ npm run dev
 **Made by the Team FLUX**
 
 </div>
+---
