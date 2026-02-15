@@ -245,17 +245,7 @@ This will install all required packages (~150MB total):
 
 **Expected installation time**: 1-3 minutes depending on your internet speed.
 
-### Step 2: Set Environment Variables (Optional)
-
-The app works without any API keys for basic functionality. However, if you want to enable advanced features:
-
-1. Open `.env.local` file in the root directory
-2. Add your Gemini API key (if using AI features):
-   ```
-   VITE_GEMINI_API_KEY=your_api_key_here
-   ```
-
-### Step 3: Start the Development Server
+### Step 2: Start the Development Server
 
 ```bash
 npm run dev
