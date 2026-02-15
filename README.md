@@ -256,7 +256,7 @@ npm run dev
 - The app opens at `http://localhost:5173` (or next available port)
 - Hot Module Replacement (HMR) is enabled - changes reflect instantly
 
-### Step 4: Open in Browser
+### Step 3: Open in Browser
 
 The terminal will show:
 ```
@@ -269,7 +269,7 @@ The terminal will show:
 
 **Open your browser** and navigate to `http://localhost:5173`
 
-### Step 5: Login or Create Account
+### Step 4: Login or Create Account
 
 **Demo Accounts** (pre-populated for testing):
 - Username: `TrailBlazer` | Password: (any password)
